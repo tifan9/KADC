@@ -2526,7 +2526,7 @@ button:focus {
 
 .about-section .item-holder {
   position: relative;
-  padding: 55px;
+  /* padding: 55px; */
   margin-bottom: 28px;
   z-index: 1;
   cursor: pointer;
