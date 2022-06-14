@@ -610,7 +610,7 @@ button:focus {
 
 .hero-slider .slider-item:before {
   position: absolute;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.4);
   content: '';
   top: 0;
   height: 100%;
