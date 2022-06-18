@@ -107,25 +107,25 @@
         </div>
         <div class="col-xl-8 col-lg-9">
           <div class="right-side">
-            <ul class="contact-info pl-0 mb-4 mb-md-0">
-              <li class="item text-left">
-                <div class="icon-box">
+            <ul class="contact-info pl-3 ml-0  mb-4 mb-md-0">
+              <li i class="item text-left ml-1 ">
+                <div class="icon-box ">
                   <!-- <i class="far fa-envelope"></i> -->
-                  <i class="fas fa-map-marker-alt"></i>
+                  <i class="fas fa-map-marker-alt "></i>
                 </div>
-                <strong>Location</strong>
+                <strong class="pl-2">Location</strong>
                 <br>
                 <!-- <a href="mailto:info@medic.com"> -->
-                  <span style="font-weight:bold; font-size:20px">KN 4 Ave, Kigali</span>
+                  <span class="pl-3" style="font-weight:bold; font-size:21px;">KN 4 Ave, Kigali</span>
                 <!-- </a> -->
               </li>
-              <li class="item text-left">
-                <div class="icon-box">
+              <li class="item text-left ml-5">
+                <div class="icon-box ">
                   <i class="fas fa-phone"></i>
                 </div>
-                <strong>Call Now</strong>
+                <strong class="pl-2">Call Now</strong>
                 <br>
-                <strong><span style="font-weight:bold; font-size:20px">(+250) 78-030-2700</span></strong>
+                <span class="pl-3" style="font-weight:bold; font-size:18px; color: #777777;">(250)78 030 2700</span>
               </li>
             </ul>
             <!-- Make Appointment -->
@@ -211,7 +211,7 @@
   <!-- container start -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-5 ">
+      <div class="col-lg-4 col-md-5 mt-4">
         <!-- address start -->
         <div class="address-block">
           <!-- Location -->
@@ -219,7 +219,7 @@
             <i class="far fa-map"></i>
             <div class="media-body">
               <h3>Location</h3>
-              <p>KN 4 Ave, Kigali, Rwanda</p>
+              <p>KN 4 Ave, Kigali, Rwanda <br> SDA Headquarter</p>
             </div>
           </div>
           <!-- Phone -->
@@ -239,8 +239,12 @@
             <div class="media-body">
               <h3>Email</h3>
               <p>
+                <a href = "mailto:kadctown124@gmail.com?subject = Feedback&body = Message" style="color: #848484;">
+                  kadctown124@gmail.com
+                  </a>
                 <!-- info@templatepath.com -->
                 <!-- <br>info@cleanxer.com -->
+                
               </p>
             </div>
           </div>
@@ -278,7 +282,7 @@
   <div class="footer-top">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="col-lg-3 mb-5 mb-lg-0">
           <div class="about-widget">
             <div class="footer-logo">
               <figure>
@@ -288,17 +292,17 @@
               </figure>
             </div>
             
-            <ul class="location-link">
+            <ul class="location-link" style="list-style: none;">
               <li class="item">
                 <i class="fas fa-map-marker-alt"></i>
                 <p>KN 4 Ave, Kigali</p>
               </li>
-              <!-- <li class="item">
+              <li class="item">
                 <i class="far fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:support@medic.com">
-                  <p>support@medic.com</p>
+                <a href="mailto:kadctown124@gmail.com">
+                  <p>kadctown124@gmail.com</p>
                 </a>
-              </li> -->
+              </li>
               <li class="item">
                 <i class="fas fa-phone" aria-hidden="true"></i>
                 <p>(250) 780 302 700</p>
@@ -312,9 +316,9 @@
             </ul> -->
           </div>
         </div>
-        <div class="col-lg-3 col-md-5 mb-3 mb-md-0">
+        <div class="col-lg-4 col-md-5 mb-3 mb-md-0">
           <h2>Services</h2>
-          <ul class="menu-link">
+          <ul class="menu-link" style="list-style: none;">
             <li>
               <a href="service.html">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>General Dentistry</a>
@@ -341,7 +345,7 @@
             </li>
             <li>
               <a href="service.html">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Preventive and correction Orthondontics </a>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Preventive & correction Orthondontics </a>
             </li>
             <li>
               <a href="service.html">
@@ -363,11 +367,18 @@
       </div>
     </div>
   </div>
-  <div class="footer-bottom">
+  <div class="footer-bottom" >
     <div class="container clearfix">
       <div class="copyright-text">
-        <p>&copy; Copyright 2022. kigali adventist dental clinic (Town)</a></p>
+        <p> </a></p>
       </div>
+      <div>
+        &copy;
+        <span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span>
+        kigali adventist dental clinic (Town)
+    </div>
       <ul class="footer-bottom-link">
         <li>
           <a href="index.html">Home</a>
